@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica";
+}
+
+.topbanner {
+	background: #31323d;
+}
+
+.topbanner h1 {
+	color: #fff;
+	padding: 1em 0;
+	margin: 0px;
+	font-size: 2em;
+	line-height: .85;
+}
+
+.container {
+	width: 1140px;
+	max-width: 95%;
+	margin: 0 auto; 
+}
+
+.navigation {
+	background: #3a3b49;
+	padding: 1em;
+}
+
+.navigation a{
+	font-size: 1.25em;
+	color: #fff;
+	font-weight: 700;
+	padding: 2em 1em;
+	text-decoration: none;
+}
+
