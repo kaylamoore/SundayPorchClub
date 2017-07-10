@@ -136,3 +136,7 @@ ul.main.menu {
 .six span {
 	font-family: "Cabin Sketch", sans-serif;
 }
+
+.six a {
+	text-decoration: none;
+}
