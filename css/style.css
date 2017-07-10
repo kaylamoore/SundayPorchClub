@@ -66,17 +66,56 @@ ul.main.menu {
 	text-rendering: optimizeLegibility;
 }
 
-/* responsive shizz */
-.aboutspc {
-	max-width: 85%
-	max-width: 960px;
-	margin: 0 auto;
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+}
+.one {
+  grid-column: 1 ;
+  grid-row: 1;
+  border: 1px dotted black;
+
 }
 
-.text {
-	padding: 0 30px;
+.one h2 {
+	font-family: "Shadows Into Light", sans-serif;
+	font-size: 3em;
+	padding-left: 5%;
 }
 
-span {
-	font-style: italic;
+.two { 
+  grid-column: 2 / 4;
+  grid-row: 1 / 3;
+  border: 1px dotted black;
+
+}
+.three {
+  grid-row: 2 / 5;
+  grid-column: 1;
+
+}
+
+.three img {
+	padding-left: 7px;
+}
+
+.four {
+  grid-column: 2 / 4;
+  grid-row: 3;
+  border: 1px dotted black;
+
+}
+.five {
+  grid-column: 2;
+  grid-row: 4;
+  border: 1px dotted black;
+
+}
+.six {
+  grid-column: 3;
+  grid-row: 4;
+  border: 1px dotted black;
 }
