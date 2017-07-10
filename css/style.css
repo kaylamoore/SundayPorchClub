@@ -15,7 +15,7 @@ header h1 {
 	text-align: center;
 	line-height: 30px
 	color: #fff;
-	font-family: "Shadows Into Light", sans-serif;
+	font-family: "Cabin Sketch", sans-serif;
 }
 
 header h2 {
@@ -81,7 +81,7 @@ ul.main.menu {
 }
 
 .one h2 {
-	font-family: "Shadows Into Light", sans-serif;
+	font-family: "Cabin Sketch", sans-serif;
 	font-size: 3em;
 	padding-left: 5%;
 }
@@ -90,6 +90,7 @@ ul.main.menu {
   grid-column: 2 / 4;
   grid-row: 1 / 3;
   border: 1px dotted black;
+  padding: 20px;
 
 }
 .three {
@@ -106,16 +107,32 @@ ul.main.menu {
   grid-column: 2 / 4;
   grid-row: 3;
   border: 1px dotted black;
+  padding: 20px;
 
+}
+
+.four span {
+	font-family: "Cabin Sketch", sans-serif;
 }
 .five {
   grid-column: 2;
   grid-row: 4;
   border: 1px dotted black;
+  padding: 20px;
 
 }
+
+.five span {
+	font-family: "Cabin Sketch", sans-serif;
+}
+
 .six {
   grid-column: 3;
   grid-row: 4;
   border: 1px dotted black;
+  padding: 20px;
+}
+
+.six span {
+	font-family: "Cabin Sketch", sans-serif;
 }
